@@ -1,0 +1,24 @@
+{
+    /*Login Module*/
+    "NewUser": "Create an Account Instead",
+    "Title" : "Flyer",
+    "Underdevelopment" : "Pardon our mess! \nThis feature is Underdevelopment!",
+    "Login": "Login",
+    "Loading" : "Loading",
+
+    /*New Account Creation*/
+    "CreateAccount" : "Create Account",
+    "Back" : "Back",
+
+    /*Placeholder*/
+    "CredentialPlaceholder" : "Username or Email", 
+    "PasswordPlaceholder" : "Password", 
+    "FirstNamePlaceholder" : "First Name", 
+    "LastNamePlaceholder" : "Last Name (Optional)",
+    "UsernamePlaceholder" : "Username",
+    "EmailPlaceholder" : "Email",
+
+    /*Error messages*/
+    "PasswordRequired" : "Password is Required",
+    "CredentialRequired" : "Username or Email is Required"
+}
