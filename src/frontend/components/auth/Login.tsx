@@ -23,15 +23,17 @@ export default function Login({ navigation }: LoginProps) {
 
   const handleLogin = async () => {
     try {
+      /**
       await loginSchema.validate(
         { credentials, password },
         { abortEarly: false }
-      );
-      const res = await LoginWithEmail(credentials, password);
+      );*/
+      const res = await LoginWithEmail("test@gmail.com", "Test123");
     } catch (error) {
       if (error instanceof yup.ValidationError) {
         const errorObj: { [key: string]: string } = {};
         error.inner.forEach((err) => {
+          console.log(err);
           if (err.path) errorObj[err.path] = err.message;
         });
         setErrors(errorObj);
